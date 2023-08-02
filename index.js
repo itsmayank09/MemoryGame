@@ -64,7 +64,7 @@ function makePattern() {
 }
 
 function btnSoundEvent(color) {
-    var audio = new Audio("https://github.com/itsmayank09/memorygame/blob/main/sounds/" + color + ".mp3");
+    var audio = new Audio("https://github.com/itsmayank09/memorygame/blob/main/sounds/" + color + ".mp3?raw=true");
     audio.play();
 }
 
